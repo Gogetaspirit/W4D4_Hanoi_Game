@@ -2,6 +2,7 @@ class Hanoi
     attr_reader :arr
     def initialize
         @arr = [[3,2 ,1],[],[]]#[[3,2,1],[],[]] => [[1,2][][3]] => [[2],[],[1,3]]=> 
+       
     end
 
     def play
